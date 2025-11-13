@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "microsoftdocs/mcp": {
+      "status": "active",
+      "publishedAt": "2025-11-13T00:00:00Z"
+    }
+  },
+  "server": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+    "name": "microsoftdocs/mcp",
+    "description": "Microsoft Learn MCP Server – access Microsoft documentation and official code samples.",
+    "version": "1.0.0",
+    "url": "https://learn.microsoft.com/api/mcp",
+    "transport": "http",
+    "tools": [
+      {
+        "name": "microsoft_docs_search",
+        "description": "Perform semantic and keyword search across Microsoft official documentation.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string" },
+            "top": { "type": "number", "default": 5 }
+          },
+          "required": ["query"]
+        }
+      },
+      {
+        "name": "microsoft_docs_fetch",
+        "description": "Fetch and convert a Microsoft documentation page into Markdown.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "url": { "type": "string" }
+          },
+          "required": ["url"]
+        }
+      },
+      {
+        "name": "microsoft_code_sample_search",
+        "description": "Search Microsoft’s official code sample repository.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string" },
+            "language": { "type": "string" }
+          },
+          "required": ["query"]
+        }
+      }
+    ]
+  }
+}
+
