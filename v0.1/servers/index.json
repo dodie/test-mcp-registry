@@ -1,7 +1,9 @@
 {
   "metadata": {
     "count": 1,
-    "nextCursor": null
+    "nextCursor": null,
+    "total": 1,
+    "total_pages": 1
   },
   "servers": [
     {
