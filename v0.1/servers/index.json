@@ -1,9 +1,4 @@
 {
-  "metadata": {
-    "count": 1,
-     "total": 1,
-     "total_pages": 1
-  },
   "servers": [
     {
       "_meta": {
@@ -14,7 +9,7 @@
         }
       },
       "server": {
-        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "microsoftdocs-mcp",
         "description": "Microsoft Learn MCP Server – access Microsoft documentation, code samples, and more.",
         "version": "1.0.0"
