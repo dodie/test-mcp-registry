@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "count": 1,
+    "nextCursor": null
+  },
   "servers": [
     {
       "_meta": {
