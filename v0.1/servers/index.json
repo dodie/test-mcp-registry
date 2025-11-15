@@ -19,6 +19,12 @@
         "name": "microsoftdocs-mcp",
         "description": "Microsoft Learn MCP Server – access Microsoft documentation, code samples, and more.",
         "version": "1.0.0"
+        "remotes": [
+          {
+            "type": "http",
+            "url": "https://learn.microsoft.com/api/mcp"
+          }
+        ]
       }
     }
   ]
