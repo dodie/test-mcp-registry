@@ -7,7 +7,7 @@
   "servers": [
     {
       "_meta": {
-        "microsoftdocs/mcp": {
+        "microsoftdocs-mcp": {
           "status": "active",
           "publishedAt": "2025-11-13T00:00:00Z",
           "isLatest": true
@@ -15,7 +15,7 @@
       },
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-        "name": "microsoftdocs/mcp",
+        "name": "microsoftdocs-mcp",
         "description": "Microsoft Learn MCP Server – access Microsoft documentation, code samples, and more.",
         "version": "1.0.0"
       }
